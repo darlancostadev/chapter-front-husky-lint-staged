@@ -8,9 +8,9 @@
     }
   },
   "lint-staged": {
-    "*js": [
+    "*.js": [
       "eslint --fix",
-      "git add ."
+      "git add"
     ]
   },
   "dependencies": {
